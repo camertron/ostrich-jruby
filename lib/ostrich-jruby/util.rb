@@ -1,3 +1,3 @@
 module Util
-	autoload :Duration, "ostrich-jruby/util/duration"
+  autoload :Duration, "ostrich-jruby/util/duration"
 end
