@@ -10,7 +10,6 @@ module Ostrich
     default_format :json
 
     desc "Get stats from ostrich."
-    set(:name, "stats")
 
     get :stats do
       handler = Ostrich::CommandHandler.new(Ostrich::Stats.collection)

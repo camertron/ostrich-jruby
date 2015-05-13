@@ -17,7 +17,7 @@ end
 group :test do
   gem 'rspec', '~> 2.11.0'
   gem 'rr',    '~> 1.0.4'
-  gem 'grape', '= 0.6.0'  # gem collision with jbundler (virtus) if looser
+  gem 'grape', '~> 0.11.0'
   gem 'json'
   gem 'rack-test'
 end
