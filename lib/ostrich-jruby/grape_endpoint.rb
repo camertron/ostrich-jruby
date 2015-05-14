@@ -9,7 +9,9 @@ module Ostrich
 
     default_format :json
 
-    desc "Get stats from ostrich."
+    desc "Get stats from ostrich." do
+      named: 'stats'
+    end
 
     get :stats do
       handler = Ostrich::CommandHandler.new(Ostrich::Stats.collection)
