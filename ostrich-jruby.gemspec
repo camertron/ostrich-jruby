@@ -5,7 +5,7 @@ require 'ostrich-jruby/version'
 
 Gem::Specification.new do |s|
   s.name     = "ostrich-jruby"
-  s.version  = '2.0.2'
+  s.version  = ::Ostrich::VERSION
   s.authors  = ["Cameron Dutro"]
   s.email    = ["cdutro@twitter.com"]
   s.homepage = ""
