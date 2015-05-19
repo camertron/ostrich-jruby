@@ -10,7 +10,7 @@ module Ostrich
     default_format :json
 
     desc "Get stats from ostrich." do
-      named: 'stats'
+      named 'stats'
     end
 
     get :stats do
