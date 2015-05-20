@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.has_rdoc = true
 
-  s.requirements << "jar 'com.twitter:ostrich', '9.2.0'"
+  s.requirements << "jar 'com.twitter:ostrich', '~> 9.2.0'"
   s.require_path = 'lib'
 
   s.files = Dir["{lib,spec}/**/*", "Gemfile", "History.txt", "LICENSE", "README.md", "Rakefile", "ostrich-jruby.gemspec"]
